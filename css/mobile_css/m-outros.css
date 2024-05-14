@@ -1,0 +1,119 @@
+@media (min-width: 320px) {
+    #peculiaridades, #poderes, #pericias, #armas, #armaduras, #items{
+        text-align: center;
+        background-color: var(--primary-color-1);
+        margin: 10px 0;
+        border-radius: 10px;
+    }
+
+    #poderes .titles, #pericias .titles, #armas .titles, #armaduras .titles, #items .titles{
+        border-radius: 0;
+        display: flex;
+    }
+
+    #peculiaridades .unico-title{
+        width: 320px;
+    }
+
+    .addLine {
+        background-color: transparent;
+        border: 1px solid #b8b8b8;
+        padding: 5px;
+        margin: 5px 0;
+        transition: all 0.3s;
+    }
+
+    .addLine:hover {
+        background-color: #b8b8b8;
+        border: 1px solid black;
+        cursor: pointer;
+    }
+
+    .fileira-inputs input {
+        background-color: var(--input-color);
+        margin: 10px;
+        border: none;
+        width: 292px;
+    }
+
+    #peculiaridades .fileira-inputs{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #poderes .titles h3, #items .titles h3{
+        font-size: 1rem;
+    }
+
+    #poderes .titles h3:first-child, #items .titles h3:first-child{
+        margin-right: 120px;
+        margin-left: 10px;
+    }
+
+    #poderes .fileira-inputs input, #items .fileira-inputs input{
+        width: 50px;
+        margin: 5px;
+    }
+
+    #poderes .fileira-inputs input:first-child, #items .fileira-inputs input:first-child{
+        width: 160px;
+    }
+
+    #items .fileira-inputs input:first-child{
+        width: 180px;
+    }
+
+    #pericias .titles, #armaduras .titles {
+        font-size: 0.8rem;
+    }
+
+    #pericias .titles h3:first-child, #pericias .titles h3:nth-child(3) {
+        margin-right: 35px;
+        margin-left: 10px;
+    }
+
+    #pericias .titles h3:nth-child(3) {
+        margin-right: 30px;
+    }
+
+    #pericias .fileira-inputs input {
+        width: 33px;
+        margin: 5px;
+    }
+
+    #pericias .fileira-inputs input:first-child, #pericias .fileira-inputs input:nth-child(3) {
+        width: 90px;
+    }
+
+    #armaduras .titles h3:first-child, #armaduras .titles h3:nth-child(3) {
+        margin-right: 40px;
+        margin-left: 10px;
+    }
+
+    #armaduras .fileira-inputs input {
+        width: 33px;
+        margin: 5px;
+    }
+
+    #armaduras .fileira-inputs input:first-child, #armaduras .fileira-inputs input:nth-child(3) {
+        width: 90px;
+    }
+
+    #armas .titles h3 {
+        font-size: 1rem;
+    }
+
+    #armas .titles h3:first-child {
+        margin-right: 75px;
+        margin-left: 5px;
+    }
+
+    #armas .fileira-inputs input {
+        width: 40px;
+        margin: 5px;
+    }
+
+    #armas .fileira-inputs input:first-child {
+        width: 150px;
+    }
+}

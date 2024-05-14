@@ -1,0 +1,103 @@
+@media (min-width: 320px) {
+    .atributos-secundarios {
+        background-color: var(--primary-color-1);
+        border-radius: 10px 10px 0 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .atributos-secundarios-iniciativa {
+        background-color: var(--primary-color-1);
+        margin-left: 5px;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .status h2 {
+        font-size: 1rem;
+        margin-right: 25px;
+    }
+
+    .wrapperSecundarios {
+        display: flex;
+        align-items: center;
+    }
+
+    .titles-middle {
+        display: flex;
+        background-color: var(--primary-color-2);
+        border-radius: 10px 10px 0 0;
+    }
+
+    .vida2 input, .mana2 input, .vigor2 input {
+       width: 70px;
+       margin-left: 10px;
+    }
+    .vida2 h4, .mana2 h4, .vigor2 h4 {
+       width: 70px;
+    }
+
+    .titles-middle h2 {
+        color: #fff;
+        font-size: 0.9rem;
+        font-weight: 100;
+    }
+
+    .iniciativa {
+        width: 90px;
+    }
+
+    .iniciativa h2 {
+        border-right: none;
+        border-bottom: none;
+        padding-left: 10px;
+    }    
+
+    .iniciativa input {
+        width: 40px;
+        font-size: 20px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border: none;
+        background-color: var(--input-color);
+        margin-left: 20px;
+    }
+
+    .proteção h2 {
+        font-size: 1rem;
+        margin-right: 0;
+    }
+
+    .proteção h3 {
+        font-size: 0.8rem;
+        margin-left: 0;
+    }
+
+    .fisica input, .mental input, .magica input {
+        width: 40px;
+        margin-left: 10px;
+    }
+
+    .deslocamento input {
+        margin-right: 20px;
+        margin-left: 23px;
+    }
+
+    .carga-wrapper div input {
+        width: 50px;
+    }
+
+    .unico-title{
+        background-color: var(--primary-color-2);
+        padding-top: 1px;
+        border-radius: 10px 10px 0 0;
+        text-align: center;
+    }
+
+    .unico-title h2 {
+        margin-bottom: 0;
+        color: #fff;
+        font-style: italic;
+        font-weight: 100;
+        font-size: 1.3rem;
+    }
+}

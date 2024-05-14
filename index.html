@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- Mobile -->
+    <link rel="stylesheet" href="css/mobile_css/m-main.css">
+    <link rel="stylesheet" href="css/mobile_css/m-secao-top.css">
+    <link rel="stylesheet" href="css/mobile_css/m-atributos-primarios.css">
+    <link rel="stylesheet" href="css/mobile_css/m-atributos-secundarios.css">
+    <link rel="stylesheet" href="css/mobile_css/m-outros.css">
+    
+    <!-- Desktop -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/atributos-secundarios.css">
+    <link rel="stylesheet" href="css/outros.css">
+    <title>Ficha Rpg</title>
+</head>
+<body>
+    <header>
+        <div><img src="images/Enuria-Logo.PNG" alt="Enuria-Logo"></div>
+        <div>
+            <button id="dJson">Download Json</button>
+            <button id="loadJsonButton">Load Json</button>
+        </div>
+    </header>
+    <section class="top" id="top">
+        <div>
+            <div class="D-jogador">
+                <h2><label for="jogador">Jogador</label></h2>
+                <input id="jogador" type="text">
+            </div>
+            <div class="D-personagem">
+                <h2><label for="personagem">Personagem</label></h2>
+                <input id="personagem" type="text">
+            </div>
+            <div class="D-nivel">
+                <h2><label for="nivel">Nivel</label></h2>
+                <input id="nivel" type="number">
+            </div>
+            <div class="D-xp">
+                <h2><label for="xp">XP</label></h2>
+                <input id="xp" type="number">
+            </div>
+        </div>
+        <div>
+            <div class="D-arquetipo">
+                <h2><label for="arquetipo">Arquetipo</label></h2>
+                <input id="arquetipo" type="text">
+            </div>
+            <div class="D-Natureza">
+                <h2><label for="natureza">Natureza</label></h2>
+                <input id="natureza" type="text">
+            </div>
+            <div class="D-comportamento">
+                <h2><label for="comportamento">Comportamento</label></h2>
+                <input id="comportamento" type="text">
+            </div>
+        </div>
+        <div class="D-descrição">
+            <h2><label for="descrição">Descrição</label></h2> <br>
+            <input id="descrição" type="text">
+        </div>
+    </section>
+    <section class="atributos-primarios" id="atributosPrimarios">
+        <div class="titles">
+            <div><h2>Primarios</h2></div>
+            <div><h3>Total</h3></div>
+            <div><h3>Obtido</h3></div>
+            <div><h3>Equip.</h3></div>
+            <div><h3>Temp.</h3></div>
+        </div>
+        <div class="f1 fileira">
+            <h4>Força</h4>
+            <input class="totalAtributosPrimarios" type="number" min="0" value="0" disabled>
+            <input class="obtidoAtributosPrimarios" type="number" min="0" value="0">
+            <input class="equipAtributosPrimarios" type="number" min="0" value="0">
+            <input class="tempAtributosPrimarios" type="number" min="0" value="0">
+        </div>
+        <div class="f2 fileira">
+            <h4>Destreza</h4>
+            <input class="totalAtributosPrimarios" type="number" min="0" value="0" disabled>
+            <input class="obtidoAtributosPrimarios" type="number" min="0" value="0">
+            <input class="equipAtributosPrimarios" type="number" min="0" value="0">
+            <input class="tempAtributosPrimarios" type="number" min="0" value="0">
+        </div>
+        <div class="f3 fileira">
+            <h4>Constituição</h4>
+            <input class="totalAtributosPrimarios" type="number" min="0" value="0" disabled>
+            <input class="obtidoAtributosPrimarios" type="number" min="0" value="0">
+            <input class="equipAtributosPrimarios" type="number" min="0" value="0">
+            <input class="tempAtributosPrimarios" type="number" min="0" value="0">
+        </div>
+        <div class="f4 fileira">
+            <h4>Inteligencia</h4>
+            <input class="totalAtributosPrimarios" type="number" min="0" value="0" disabled>
+            <input class="obtidoAtributosPrimarios" type="number" min="0" value="0">
+            <input class="equipAtributosPrimarios" type="number" min="0" value="0">
+            <input class="tempAtributosPrimarios" type="number" min="0" value="0">
+        </div>
+        <div class="f5 fileira">
+            <h4>Raciocinio</h4>
+            <input class="totalAtributosPrimarios" type="number" min="0" value="0" disabled>
+            <input class="obtidoAtributosPrimarios" type="number" min="0" value="0">
+            <input class="equipAtributosPrimarios" type="number" min="0" value="0">
+            <input class="tempAtributosPrimarios" type="number" min="0" value="0">
+        </div>
+        <div class="f6 fileira">
+            <h4>Percepção</h4>
+            <input class="totalAtributosPrimarios" type="number" min="0" value="0" disabled>
+            <input class="obtidoAtributosPrimarios" type="number" min="0" value="0">
+            <input class="equipAtributosPrimarios" type="number" min="0" value="0">
+            <input class="tempAtributosPrimarios" type="number" min="0" value="0">
+        </div>
+        <div class="f7 fileira">
+            <h4>Determinação</h4>
+            <input class="totalAtributosPrimarios" type="number" min="0" value="0" disabled>
+            <input class="obtidoAtributosPrimarios" type="number" min="0" value="0">
+            <input class="equipAtributosPrimarios" type="number" min="0" value="0">
+            <input class="tempAtributosPrimarios" type="number" min="0" value="0">
+        </div>
+        <div class="f8 fileira">
+            <h4>Coragem</h4>
+            <input class="totalAtributosPrimarios" type="number" min="0" value="0" disabled>
+            <input class="obtidoAtributosPrimarios" type="number" min="0" value="0">
+            <input class="equipAtributosPrimarios" type="number" min="0" value="0">
+            <input class="tempAtributosPrimarios" type="number" min="0" value="0">
+        </div>
+        <div class="f9 fileira">
+            <h4>Diciplina</h4>
+            <input class="totalAtributosPrimarios" type="number" min="0" value="0" disabled>
+            <input class="obtidoAtributosPrimarios" type="number" min="0" value="0">
+            <input class="equipAtributosPrimarios" type="number" min="0" value="0">
+            <input class="tempAtributosPrimarios" type="number" min="0" value="0">
+        </div>
+        <div class="f10 fileira">
+            <h4>Carisma</h4>
+            <input class="totalAtributosPrimarios" type="number" min="0" value="0" disabled>
+            <input class="obtidoAtributosPrimarios" type="number" min="0" value="0">
+            <input class="equipAtributosPrimarios" type="number" min="0" value="0">
+            <input class="tempAtributosPrimarios" type="number" min="0" value="0">
+        </div>
+        <div class="f11 fileira">
+            <h4>Manipulação</h4>
+            <input class="totalAtributosPrimarios" type="number" min="0" value="0" disabled>
+            <input class="obtidoAtributosPrimarios" type="number" min="0" value="0">
+            <input class="equipAtributosPrimarios" type="number" min="0" value="0">
+            <input class="tempAtributosPrimarios" type="number" min="0" value="0">
+        </div>
+        <div class="f12 fileira">
+            <h4>Aparencia</h4>
+            <input class="totalAtributosPrimarios" type="number" min="0" value="0" disabled>
+            <input class="obtidoAtributosPrimarios" type="number" min="0" value="0">
+            <input class="equipAtributosPrimarios" type="number" min="0" value="0">
+            <input class="tempAtributosPrimarios" type="number" min="0" value="0">
+        </div>
+    </section>
+    <section class="atributos-secundarios" id="atributosSecundariosStatus">
+        <div class="titles status">
+            <h2>Status</h2>
+            <h3>Total</h3>
+            <h3>Atributo</h3>
+            <h3>Obtido</h3>
+            <h3>Equip.</h3>
+        </div>
+        <div class="vida fileira">
+            <h4>Vida</h4>
+            <input class="totalAtributosStatus" type="number" min="0" disabled>
+            <input class="atributoStatus" type="number" min="0" value="0" disabled>
+            <input class="obtidoAtributosStatus" type="number" min="0" value="0">
+            <input class="equipAtributosStatus" type="number" min="0" value="0">
+        </div>
+        <div class="mana fileira">
+            <h4>Mana</h4>
+            <input class="totalAtributosStatus" type="number" min="0" disabled>
+            <input class="atributoStatus" type="number" min="0" value="0" disabled>
+            <input class="obtidoAtributosStatus" type="number" min="0" value="0">
+            <input class="equipAtributosStatus" type="number" min="0" value="0">
+        </div>
+        <div class="vigor fileira">
+            <h4>Vigor</h4>
+            <input class="totalAtributosStatus" type="number" min="0" disabled>
+            <input class="atributoStatus" type="number" min="0" value="0" disabled>
+            <input class="obtidoAtributosStatus" type="number" min="0" value="0">
+            <input class="equipAtributosStatus" type="number" min="0" value="0">
+        </div>
+    </section>
+    <section class="atributos-secundarios" id="atributosSecundariosRecuperar">
+        <div class="titles-middle">
+            <h2>Reabilitação</h2>
+            <h3 class="recuperação">Recuperação</h3>
+            <h3>Regeneração</h3>
+        </div>
+        <div class=" vida2 fileira">
+            <h4>Vida</h4>
+            <input class="recuperaçãoAtributosRecuperar" type="number" min="0" disabled>
+            <input class="regeneraçãoAtributosRecuperar" type="number" min="0" disabled>
+        </div>
+        <div class="mana2 fileira">
+            <h4>Mana</h4>
+            <input class="recuperaçãoAtributosRecuperar" type="number" min="0" disabled>
+            <input class="regeneraçãoAtributosRecuperar" type="number" min="0" disabled>
+        </div>
+        <div class="vigor2 fileira">
+            <h4>Vigor</h4>
+            <input class="recuperaçãoAtributosRecuperar" type="number" min="0" disabled>
+            <input class="regeneraçãoAtributosRecuperar" type="number" min="0" disabled>
+        </div>
+    </section>
+    <section class="atributos-secundarios proteção" id="atributosSecundariosProteção">
+        <div class="titles">
+            <h2>Proteção</h2>
+            <h3>Total</h3>
+            <h3>Equipamento</h3>
+            <h3>Temporario</h3>
+        </div>
+        <div class="fisica fileira">
+            <h4>Fisica</h4>
+            <input class="totalAtributosProteção" type="number" min="0" disabled>
+            <input class="equipAtributosProteção" type="number" min="0" value="0">
+            <input class="tempAtributosProteção" type="number" min="0" value="0">
+        </div>
+        <div class="mental fileira">
+            <h4>Mental</h4>
+            <input class="totalAtributosProteção" type="number" min="0" disabled>
+            <input class="equipAtributosProteção" type="number" min="0" value="0">
+            <input class="tempAtributosProteção" type="number" min="0" value="0">
+        </div>
+        <div class="magica fileira">
+            <h4>Magica</h4>
+            <input class="totalAtributosProteção" type="number" min="0" disabled>
+            <input class="equipAtributosProteção" type="number" min="0" value="0">
+            <input class="tempAtributosProteção" type="number" min="0" value="0">
+        </div>
+    </section>
+    <section class="atributos-secundarios">
+        <div class="titles">
+            <h2>Deslocamento</h2>
+            <h3>Caminhada</h3>
+            <h3>Marcha</h3>
+            <h3>Corrida</h3>
+        </div>
+        <div class="fileira deslocamento">
+            <h4>Km/h</h4>
+            <input class="caminhadaAtributosDeslocamento" type="number" value="0" disabled>
+            <input class="marchaAtributosDeslocamento" type="number" value="0" disabled>
+            <input class="corridaAtributosDeslocamento" type="number" value="0" disabled>
+        </div>
+        <div class="fileira deslocamento">
+            <h4>m/s</h4>
+            <input class="caminhadaAtributosDeslocamento" type="number" value="0" disabled>
+            <input class="marchaAtributosDeslocamento" type="number" value="0" disabled>
+            <input class="corridaAtributosDeslocamento" type="number" value="0" disabled>
+        </div>
+    </section>
+    <div class="wrapperSecundarios">
+        <section class="atributos-secundarios">
+            <div class="unico-title">
+                <h2>Carga</h2>
+            </div>
+            <div class="carga-wrapper">
+                <div class="part1">
+                    <div class="fileira">
+                        <h4>Leve</h4>
+                        <input id="leve" type="text" value="0" disabled>
+                    </div>
+                    <div class="fileira">
+                        <h4>Media</h4>
+                        <input id="media" type="text" value="0" disabled>
+                    </div>
+                    <div class="fileira">
+                        <h4>Pesada</h4>
+                        <input id="pesada" type="text" value="0" disabled>
+                    </div>
+                </div>
+                <div class="part2">
+                    <div class="fileira">
+                        <h4>Empurrar</h4>
+                        <input id="empurrar" type="text" value="0" disabled>
+                    </div>
+                    <div class="fileira">
+                        <h4>Erguer</h4>
+                        <input id="erguer" type="text" value="0" disabled>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="atributos-secundarios-iniciativa" id="atributoAtributosIniciativa">
+            <div class="titles-middle iniciativa">
+                <h2>Iniciativa</h2>
+            </div>
+            <div class="fileiras iniciativa disabled">
+                <input id="iniciativa" type="number" value="0" disabled>
+            </div>
+        </section>
+    </div>
+    <section id="peculiaridades">
+        <div class="unico-title">
+            <h2>Peculiaridades</h2>
+        </div>
+        <button id="peculiaridadesBtn" class="addLine">Adicionar Linha</button>
+    </section>
+    <section id="poderes">
+        <div class="unico-title">
+            <h2>Poderes</h2>
+        </div>
+        <div class="titles">
+            <h3>Nome</h3>
+            <h3>Nivel</h3>
+            <h3>Custo</h3>
+        </div>
+        <button id="poderesBtn" class="addLine">Adicionar Linha</button>
+    </section>
+    <section id="pericias"> 
+        <div class="unico-title">
+            <h2>Pericias</h2>
+        </div>
+        <div class="titles">
+            <h3>Nome</h3>
+            <h3>Nivel</h3>
+            <h3>Nome</h3>
+            <h3>Nivel</h3>
+        </div>
+        <button id="periciasBtn" class="addLine">Adicionar Linha</button>
+    </section>
+    <section id="armas">
+        <div class="unico-title">
+            <h2>Armas</h2>
+        </div>
+        <div class="titles">
+            <h3>Nome</h3>
+            <h3>Acerto</h3>
+            <h3>Dano</h3>
+            <h3>Peso</h3>
+        </div>
+        <button id="armasBtn" class="addLine">Adicionar Linha</button>
+    </section>
+    <section id="armaduras">
+        <div class="unico-title">
+            <h2>Armaduras</h2>
+        </div>
+        <div class="titles">
+            <h3>Nome</h3>
+            <h3>IP</h3>
+            <h3>Nome</h3>
+            <h3>IP</h3>
+        </div>
+        <button id="armadurasBtn" class="addLine">Adicionar Linha</button>
+    </section>
+    <section id="items">
+        <div class="unico-title">
+            <h2>Items</h2>
+        </div>
+        <div class="titles">
+            <h3>Nome</h3>
+            <h3>QTD.</h3>
+            <h3>Peso</h3>
+        </div>
+        <button id="itemsBtn" class="addLine">Adicionar Linha</button>
+    </section>
+    <button id="subirBtn" title="Subir ao topo">&#8593;</button>
+    <footer>
+        <div>
+            <strong>FrontEnd:</strong>
+            <a target="_blank" href="https://github.com/AllanaDarkDev"><img src="images/github-icon.png" alt="">Allana Dark</a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

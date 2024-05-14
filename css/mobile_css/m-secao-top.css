@@ -1,0 +1,85 @@
+@media (min-width: 320px) {
+    .top {
+        background-color: var(--primary-color-1);
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+    }
+    
+    .top input{
+        background-color: var(--input-color);
+        border: none;
+    }
+    
+    .top div{
+        display: flex;
+    }
+    
+    
+    .top div div{
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+    }
+    
+    .top div div input{
+        width: 50px;
+    }
+    
+    .top div div h2{
+        background-color: var(--primary-color-2);
+        padding: 5px;
+        border-radius: 15px;
+        font-weight: 100;
+        font-style: italic;
+        color: white;
+    }
+    
+    .D-descrição {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+    
+    .D-descrição h2{
+        background-color: var(--primary-color-2);
+        padding: 5px;
+        border-radius: 15px;
+        font-weight: 100;
+        font-style: italic;
+        color: white;
+    }
+    
+    .D-descrição input {
+        width: 300px;
+    }
+    
+    .D-jogador input {
+        padding-right: 20px;
+    }
+    
+    .D-personagem input {
+        padding-right: 50px;
+    }
+    
+    .D-arquetipo input {
+        padding-right: 30px;
+    }
+    
+    .D-Natureza input {
+        padding-right: 28px;
+    }
+    
+    .D-comportamento input {
+        padding-right: 80px;
+    }
+    
+    .D-xp h2 {
+        margin-left: 15px;
+    }
+    
+    .top div:first-child div:last-child input {
+        width: 40px;
+        margin-left: 10px;
+    }
+}

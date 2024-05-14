@@ -1,0 +1,60 @@
+@media (min-width: 500px) {
+
+    #poderes .fileira-inputs input:first-child, #items .fileira-inputs input:first-child{
+        width: 150px;
+    }
+
+    #items .fileira-inputs input:first-child{
+        width: 180px;
+    }
+
+    #pericias .titles, #armaduras .titles {
+        font-size: 0.8rem;
+    }
+
+    #pericias .titles h3:first-child, #pericias .titles h3:nth-child(3) {
+        margin-right: 40px;
+        margin-left: 10px;
+    }
+
+    #pericias .fileira-inputs input {
+        width: 33px;
+        margin: 5px;
+    }
+
+    #pericias .fileira-inputs input:first-child, #pericias .fileira-inputs input:nth-child(3) {
+        width: 90px;
+    }
+
+    #armaduras .titles h3:first-child, #armaduras .titles h3:nth-child(3) {
+        margin-right: 40px;
+        margin-left: 10px;
+    }
+
+    #armaduras .fileira-inputs input {
+        width: 33px;
+        margin: 5px;
+    }
+
+    #armaduras .fileira-inputs input:first-child, #armaduras .fileira-inputs input:nth-child(3) {
+        width: 90px;
+    }
+
+    #armas .titles h3 {
+        font-size: 1rem;
+    }
+
+    #armas .titles h3:first-child {
+        margin-right: 80px;
+        margin-left: 5px;
+    }
+
+    #armas .fileira-inputs input {
+        width: 40px;
+        margin: 5px;
+    }
+
+    #armas .fileira-inputs input:first-child {
+        width: 150px;
+    }
+}

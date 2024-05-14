@@ -1,0 +1,23 @@
+:root {
+    --primary-color-1:#E2E0E0;
+    --primary-color-2: #868686;
+    --header-e-footer: #6d6d6d;
+    --input-color: #f7f6f6;
+}
+
+body {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    margin: 0;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}

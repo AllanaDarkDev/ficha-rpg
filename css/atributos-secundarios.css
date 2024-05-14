@@ -1,0 +1,26 @@
+@media (min-width: 500px) {
+    .vida2 input, .mana2 input, .vigor2 input {
+        margin-left: 5px;
+        width: 60px;
+    }
+
+    .proteção h2 {
+        font-size: 1rem;
+        margin-right: 10px;
+    }
+
+    .proteção h3 {
+        font-size: 0.8rem;
+        margin-left: 5px;
+    }
+
+    .fisica input, .mental input, .magica input {
+        width: 40px;
+        margin-left: 10px;
+    }
+
+    .deslocamento input {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+}
