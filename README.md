@@ -1,6 +1,6 @@
 <h1 align="center">Ficha de RPG</h1>
 
-<p><img src="https://github.com/AllanaDarkDev/Ficha-De-Rpg/assets/148502687/33346e1d-4ce2-4e7e-bc9d-d22a59ee25a0" alt="Enuria-Logo"></p>
+<p>![image](https://github.com/AllanaDarkDev/ficha-rpg/assets/148502687/1e1c686b-a4af-49e8-9fe2-6a8989629a3e)</p>
 
 <p>Bem-vindo ao repositório da Ficha de RPG! Este é um projeto criado para facilitar a criação e gerenciamento de fichas de personagens para jogos de RPG.</p>
 
@@ -14,7 +14,7 @@ Este projeto é uma aplicação web que permite aos jogadores de RPG criar e per
 
 ## Acesso à aplicação
 
-[![Link](https://img.shields.io/badge/-Link-E4405F?style=for-the-badge&logo=htmx&logoColor=ffffff&color=000000)](https://allanadarkdev.github.io/Ficha-De-Rpg/)
+[![Link](https://img.shields.io/badge/-Link-E4405F?style=for-the-badge&logo=htmx&logoColor=ffffff&color=000000)](https://allanadarkdev.github.io/ficha-rpg/)
 
 ## Licença
 
