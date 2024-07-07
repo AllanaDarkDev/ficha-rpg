@@ -1,6 +1,6 @@
 <h1 align="center">Ficha de RPG</h1>
 
-<p>[image](https://github.com/AllanaDarkDev/ficha-rpg/assets/148502687/1e1c686b-a4af-49e8-9fe2-6a8989629a3e)</p>
+<p>![Ficha Rpg](https://github.com/AllanaDarkDev/ficha-rpg/assets/148502687/1e1c686b-a4af-49e8-9fe2-6a8989629a3e)</p>
 
 <p>Bem-vindo ao repositório da Ficha de RPG! Este é um projeto criado para facilitar a criação e gerenciamento de fichas de personagens para jogos de RPG.</p>
 
